@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="sign_up.css">
+    <title>sign_up</title>
+</head>
+<body>
+    <form action="">
+    First name:<input type="text" name="Fist name" placeholder="Fist name">
+    Last name:<input type="text" name="Last name" placeholder="Last name">
+<br>Surname:<input type="text" name="Surname" placeholder="Surname">
+<br>Email:<input type="email" name="Email" placeholder="Write your email">
+    Password:<input type="password" name="Password" placeholder="Write your password">
+<br>Date of birth:<input type="date">
+<br>Select a photo:<input type="file" name="myFile">
+<br>Number phone:<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="10">Format is that: 123-45-678  
+ <br>   <input type="radio" name="gender" value="Male" checked>Male
+        <input type="radio" name="gender" value="Female">Female
+  
+<br>    <button>Sumbit</button>
+    
+</form>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAiZloiN7uWSR3nj5YrVJ6pcEbyYxGPE1I",
+    authDomain: "projekt-83fb2.firebaseapp.com",
+    databaseURL: "https://projekt-83fb2.firebaseio.com",
+    projectId: "projekt-83fb2",
+    storageBucket: "projekt-83fb2.appspot.com",
+    messagingSenderId: "934699708510"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src="index.js
+</body>
+</html>

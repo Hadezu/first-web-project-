@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    background: url(https://storage.googleapis.com/stateless-eng911-ru/2018/07/9eddd8e8-citata.jpg);
+}
+
+.container {
+    margin-top: 22%;
+    margin-left: 43%
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.emails {
+    width: 160x;
+    height: 34px; 
+    background-color: #d6b9e8; 
+    padding: 0.9%;
+    border-radius: 50px;
+
+}
+
+.passwords {
+padding: 0.9%;
+ margin-top: 1.3%;
+ width: 160x;
+ height: 34px;
+ background-color: #d6b9e8;
+ border: 1px solid blueviolet;   
+ border-radius: 50px;
+}
+
+
+button {
+    color: black;
+    border: 1px solid yellowgreen;
+    background-color: #71b3bd;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 3%;
+   padding: 0.7%
+}
